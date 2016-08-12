@@ -28,7 +28,7 @@ e.g. `tsconfig.json`:
 }
 ```
 
-Instead of `tsc`, run `tscg` (note the extra g in the name). This first updates `tsconfig.json` with the found files and then invokes `tsc` with the same arguments.
+Run `tscg` to update `tsconfig.json` with the found files. Then, invoke `tsc` as normal.
 
 The `files` property is generated with all the filenames the glob has found. e.g. updated `tsconfig.json`:
 ```
